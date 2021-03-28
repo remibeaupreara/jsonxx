@@ -235,12 +235,14 @@ class Value {
     number_value_ = static_cast<long double>(n); \
   }
   $number( char )
-  $number( int )
-  $number( long )
-  $number( long long )
   $number( unsigned char )
+  $number( short )
+  $number( unsigned short )
+  $number( int )
   $number( unsigned int )
+  $number( long )
   $number( unsigned long )
+  $number( long long )
   $number( unsigned long long )
   $number( float )
   $number( double )
